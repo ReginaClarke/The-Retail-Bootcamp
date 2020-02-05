@@ -1,0 +1,23 @@
+{
+  "name": "the-retail-bootcamp",
+  "version": "1.0.0",
+  "description": "A simplified way of looking and financial data to use for competitive analysis.",
+  "main": "main.js",
+  "dependencies": {
+    "unirest": "^0.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReginaClarke/The-Retail-Bootcamp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ReginaClarke/The-Retail-Bootcamp/issues"
+  },
+  "homepage": "https://github.com/ReginaClarke/The-Retail-Bootcamp#readme"
+}
