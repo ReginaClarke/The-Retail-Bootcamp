@@ -5,11 +5,7 @@ body{
   justify-content: center;
   align-content: center;
   align-items: center;
-  background-color: #131313;
-  background-image: url("wenyang-lwHNPvw2nVA-unsplash.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: black;
   color:#ffffff;
   }
 
@@ -17,10 +13,11 @@ body{
 
 p{
   font-weight: normal;
-  font-size: 1.5rem;
+  font-size: 1rem;
   width: 90%;
   margin: auto;
   color: white;
+  padding: 2em auto auto auto;
 }
 
 
@@ -51,33 +48,17 @@ h1{
 
 
 
-#HomePage{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  width: auto;
-  padding: 0rem auto 10rem auto;
-  text-align: center;
-}
-
 #about{
-  padding: 0rem auto 10rem auto;
+  
   text-align: center;
 }
 
-
-#tools{
-  padding: 0rem auto 10rem auto;
-  text-align: center;
-}
 
 
 
 h2{
   padding: 2em auto 0 auto;
-  margin: 3em auto 3em auto;
+  margin: 3em auto 1em auto;
   font-size: 3rem;
   color: #ffffff;
   text-align: center;
@@ -98,44 +79,6 @@ li{
   text-align: center;
   }
 
-
-  input{
-    display: flexbox;
-    justify-content: center;
-    width: 12rem;
-    height: 1rem;
-    padding: .75em auto 0 auto;
-    color: maroon;
-    text-align: center;
-    align-content: center;
-    font-weight: bolder;
-  }
-
-
-
-  button{
-    display: flexbox;
-    justify-content: center;
-    width: 6rem;
-    height: 2rem;
-    padding: .75em auto 0 auto; 
-    background-color: maroon;
-    color: white;
-    text-align: center;
-    align-content: center;
-    font-weight: bolder;
-  }
-  
-
-
-  img{
-    width: 90%;
-    height: 90%;
-    bottom: 20rem;
-    padding: 1em auto 5em auto;
-    margin:1em 0em 10em 0rem;
-    text-align: center;
-  }
 
 
   a{
@@ -188,27 +131,13 @@ align-content: center;
 
 
 
-#tickerSearch{
-  display: flexbox;
-  flex-wrap: wrap;
-  text-align: center;
-  align-content: center;
-}
-
-iframe{
-  height: 15rem;
-  width: 20rem;
-  margin: 2rem auto 2rem auto;
-
-}
 
 
-#Search{
-  padding: 0 auto auto auto;
-  margin: 0 auto auto auto;
-}
-
-.examples{
-  width: 50%;
-  height: 50%;
+.me{
+  width: 30%;
+  height: 30%;
+  border-radius: 30em;
+  border: 1em solid #3f3f3f;
+  margin: 0 auto 5em auto;
+  padding: 0 auto 5em auto;
 }
