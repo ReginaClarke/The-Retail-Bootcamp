@@ -1,6 +1,6 @@
 const button = document.querySelector("button")
 const newDiv = document.querySelector("#Search");
-const BASE_URL = "https://last10k-company-v1.p.rapidapi.com/v1/company/income?formType=10-q&ticker=m"
+const BASE_URL = "https://last10k-company-v1.p.rapidapi.com/v1/company/income?formType=10-k&ticker="
 const userInput = document.querySelector("input")
 
 // console.log(newDiv)
@@ -8,7 +8,8 @@ const userInput = document.querySelector("input")
 
 button.addEventListener("click", async () => {//adding in event listener
 
-  axios(`${BASE_URL}`, {
+  const ticker = userInput.value;
+  await axios(`${BASE_URL}${ticker}`, {
     "method": "GET",
     "headers": {
       "x-rapidapi-host": "last10k-company-v1.p.rapidapi.com",
@@ -19,15 +20,16 @@ button.addEventListener("click", async () => {//adding in event listener
       console.log(response);
 
       const revenue = response.data.data.attributes.result.RevenueFromContractWithCustomerExcludingAssessedTax;
-      // //   // console.log(revenue)
-      const cogs = response.data.data.attributes.result.CostOfGoodsAndServicesSold;
-      // //   console.log(cogs)
+      //console.log(revenue)
+      const cogs = Math.abs(response.data.data.attributes.result.CostOfGoodsAndServicesSold);
+      //console.log(cogs)
       const netIncome = response.data.data.attributes.result.NetIncomeLoss;
-      const grossMargin = revenue + cogs;
-      const grossMarginRate = (revenue - grossMargin) / revenue * 100 + "%";
-      const netIncomeRate = (netIncome / revenue) * 100 + "%";
+      const companyName = response.data.data.attributes.company.name
+      const grossMargin = revenue - cogs;
+      const imu = Math.round((revenue - grossMargin) / revenue * 100) + "%";
+      const netIncomeRate = Math.round((netIncome / revenue) * 100) + "%";
 
-      newDiv.innerHTML = `<div>GM%: ${grossMarginRate} Net Income%: ${netIncomeRate}</div>`
+      newDiv.innerHTML = `<div>${companyName} <br> Initial Markup (aka IMU%): ${imu} <br>Net Income%: ${netIncomeRate}</div>`
 
     })
     .catch(err => {
