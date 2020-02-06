@@ -1,9 +1,11 @@
 body{
   display: flexbox;
+  flex-wrap: wrap;
   font-family: Arial, Helvetica, sans-serif;
   justify-content: center;
   align-content: center;
   align-items: center;
+  background-color: #1b1b1b;
   background-image: url("wenyang-lwHNPvw2nVA-unsplash.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
@@ -15,83 +17,117 @@ body{
 
 p{
   font-weight: normal;
-  font-size: .85em;
+  font-size: 1.5rem;
   width: 90%;
-
 }
 
 
 header{
   display: flexbox;
+  flex-wrap: wrap;
   align-items: center;
   text-align: center;
   background-image: linear-gradient(to top,#3f3f3f, #000000);
-  height: 6em;
-
-  top: 0em;
+  top: 0rem;
   color:#ffffff;
   position: sticky;
-  margin: 0em;
-  padding: 0em;
+  margin: 0rem;
+  padding: 0rem;
   width: 100%;
+  height: 100%;
 }
 
 
 
 h1{
-  padding: 0em;
-  margin: 0em;
-  font-size: 3em;
+  padding: 0rem;
+  margin: 0rem;
+  font-size: 3rem;
   color: #ffffff;
+  text-align: center;
 }
 
+
+
 #HomePage{
-  display: block;
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   align-content: center;
-  margin: auto;
+  width: fit-content;
+  padding: 0rem auto 10rem auto;
+  text-align: center;
 }
 
+#about{
+  padding: 0rem auto 10rem auto;
+  text-align: center;
+}
+
+
+#tools{
+  padding: 0rem auto 10rem auto;
+  text-align: center;
+}
+
+
+iframe{
+  height: 15rem;
+  width: 20rem;
+}
+
+
 h2{
-  padding: 3em 0 0 0;
-  margin: 0em;
-  font-size: 3em;
+  padding: 2em auto 0 auto;
+  margin: auto;
+  font-size: 2.5rem;
   color: #ffffff;
+  text-align: center;
+  font-style: italic;
+font-family: cursive;
 }
 
 
 
 li{
-  top: 0em;
-  padding: 0em;
+  top: 0rem;
+  padding: 0rem;
   display: inline;
   justify-content: center;
   text-align: center;
   font-weight: bolder;
-  margin: 1em;
+  margin: 1rem;
+  font-size: .75rem;
+  text-align: center;
   }
 
 
   input{
     display: flexbox;
     justify-content: center;
-    width: 12em;
-    height: 1em;
-    padding: .75em 0 0 0;
+    width: 12rem;
+    height: 1rem;
+    padding: .75em auto 0 auto;
     color: maroon;
     text-align: center;
+    align-content: center;
+    font-weight: bolder;
   }
+
+
 
   button{
     display: flexbox;
     justify-content: center;
-    width: 6em;
-    height: 2em;
-    padding: .75em 0 0 0; 
+    width: 6rem;
+    height: 2rem;
+    padding: .75em auto 0 auto; 
     background-color: maroon;
     color: white;
     text-align: center;
+    align-content: center;
+    font-weight: bolder;
   }
   
 
@@ -99,15 +135,17 @@ li{
   img{
     width: 50%;
     height: 50%;
-    bottom: 20em;
-    padding: 1em 0em 5em 0em;
-    margin:5em 0em 10em 0em;
+    bottom: 20rem;
+    padding: 1em auto 5em auto;
+    margin:5em 0em 10em 0rem;
+    text-align: center;
   }
 
 
   a{
     color: #ffffff;
     text-decoration: none;
+    text-align: center;
   }
   
   
@@ -118,8 +156,14 @@ li{
   
   
   div{
-    margin: 2em;
+    margin: auto;
+    text-align: center;
+    margin: 1rem auto 10rem auto;
+    display: flexbox;
+    flex-wrap: wrap;
   }
+
+
 
 #bottom{
   display: flexbox;
@@ -129,13 +173,28 @@ align-content: center;
   text-align: center;
   background-image: linear-gradient(to bottom,#3f3f3f, #000000);
   position: fixed;
-  bottom: 0em;
+  bottom: 0rem;
   width: 100%;
   color:#ffffff;
-  font-size: .75em;
-  height: 8em;
+  font-size: .75rem;
+  height: 8rem;
   font-weight: lighter;
 }
 
+
+
+.footer{
+  font-size: .75rem;
+  text-align: center;
+}
+
+
+
+#tickerSearch{
+  display: flexbox;
+  flex-wrap: wrap;
+  text-align: center;
+  align-content: center;
+}
 
 

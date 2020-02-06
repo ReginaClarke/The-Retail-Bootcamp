@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>The Retail Bootcamp</title>
+  <title>The Retail Bootcamp:Search</title>
   <link rel="stylesheet" href="style.css">
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
@@ -18,7 +18,9 @@
     <nav>
       <ul>
         <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
         <li><a href="search.html">SEARCH</a></li>
+        <li><a href="tools.html">TOOLS</a></li>
       </ul>
     </nav>
   </header>
@@ -28,7 +30,10 @@
 
     <h2>Search by Ticker</h2>
     <br>
-    <div>
+    
+    <img src="ticker-examples.jpeg">
+    <br>
+    <div id="tickerSearch">
       <input type="text" placeholder="Company Ticker Symbol">
       <button>Get Results</button>
       <div id="Search"> </div>
@@ -53,11 +58,13 @@
 
   <footer id="bottom">
     <h3>The Retail Bootcamp</h3>
-    <p>info@TheRetailBootcamp<br>
-      www.TheRetailBootcamp.com<br>
-    </p>
-    <p>Instagram</p>
-  </footer id="bottom">
+    <p class="footer">info@TheRetailBootcamp
+      <br>
+      www.TheRetailBootcamp.com
+      <br>
+      Instagram</p>
+  </footer>
+
 </body>
 
 <script src="./main.js"></script>
