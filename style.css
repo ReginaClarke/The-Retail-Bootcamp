@@ -3,12 +3,12 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   justify-content: center;
   align-content: center;
+  align-items: center;
   background-image: url("wenyang-lwHNPvw2nVA-unsplash.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
   color:#ffffff;
-  margin: 2em;
   }
 
 
@@ -27,11 +27,13 @@ header{
   text-align: center;
   background-image: linear-gradient(to top,#3f3f3f, #000000);
   height: 6em;
-  width: 100%;
+
   top: 0em;
   color:#ffffff;
   position: sticky;
   margin: 0em;
+  padding: 0em;
+  width: 100%;
 }
 
 
@@ -43,7 +45,13 @@ h1{
   color: #ffffff;
 }
 
-
+#HomePage{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+}
 
 h2{
   padding: 3em 0 0 0;
@@ -61,6 +69,7 @@ li{
   justify-content: center;
   text-align: center;
   font-weight: bolder;
+  margin: 1em;
   }
 
 
@@ -71,17 +80,18 @@ li{
     height: 1em;
     padding: .75em 0 0 0;
     color: maroon;
-    font-weight: bolder;
+    text-align: center;
   }
 
   button{
     display: flexbox;
     justify-content: center;
     width: 6em;
-    height: 3em;
-    padding: 1em 0 0 0; 
+    height: 2em;
+    padding: .75em 0 0 0; 
     background-color: maroon;
-    font-weight: bolder;
+    color: white;
+    text-align: center;
   }
   
 
@@ -95,8 +105,25 @@ li{
   }
 
 
-footer{
+  a{
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  
+  
+  a:hover {
+    color: maroon;
+  }
+  
+  
+  div{
+    margin: 2em;
+  }
+
+#bottom{
   display: flexbox;
+align-content: center;
   flex-shrink: 0;
   align-items: center;
   text-align: center;
@@ -106,22 +133,9 @@ footer{
   width: 100%;
   color:#ffffff;
   font-size: .75em;
-  height: 7em;
-  padding: 0em;
+  height: 8em;
   font-weight: lighter;
 }
 
 
 
-a{
-  color: #ffffff;
-  text-decoration: none;
-}
-
-
-
-a:hover {
-  color: maroon;
-}
-
-@media(max )
