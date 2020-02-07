@@ -29,7 +29,7 @@ button.addEventListener("click", async () => {//adding in event listener
       const imu = Math.round((revenue - grossMargin) / revenue * 100) + "%";
       const netIncomeRate = Math.round((netIncome / revenue) * 100) + "%";
 
-      newDiv.innerHTML = `<div>${companyName} <br> Initial Markup (aka IMU%): ${imu} <br>Net Income%: ${netIncomeRate}</div>`
+      newDiv.innerHTML = `<div id="companyOutput">${companyName} <br> Initial Markup (aka IMU%): ${imu} <br>Net Income%: ${netIncomeRate}</div>`
 
     })
     .catch(err => {
