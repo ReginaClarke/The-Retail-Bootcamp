@@ -1,6 +1,6 @@
 const button = document.querySelector("button")
 const newDiv = document.querySelector("#Search");
-const BASE_URL = "https://last10k-company-v1.p.rapidapi.com/v1/company/income?formType=10-k&ticker="
+const BASE_URL = "https://last10k-company-v1.p.rapidapi.com/v1/company/income?formType=10-q&ticker="
 const userInput = document.querySelector("input")
 
 // console.log(newDiv)
