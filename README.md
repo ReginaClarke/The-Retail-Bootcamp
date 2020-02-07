@@ -3,7 +3,7 @@ A simplified way of looking and financial data to use for competitive analysis.
 
 
 Description: 
-This is a business tool to use for quick competitive analysis. This tool should be used to help small businesses understand industry metrics in a digestible format for most. The goal is to show sales and margins over time for certain businesses or industries. Most applications that show financial data in an easy manner do so in a manner that is more stock market research friendly verses the average consumer.  The key here is to take out the information that is used in most stock exchange applications.  Most of that information is often confusing and overwhelming for the average business.
+This is a business tool to use for quick competitive analysis. This tool should be used to help small businesses understand industry metrics in a digestible format for most. The goal is to show sales and margins over time for certain businesses or industries. Most applications that show financial data in an easy manner do so in a manner that is more stock market research friendly verses the average consumer.  The key here is to take out the information that is used in most stock exchange applications.  Most of that information is often confusing and overwhelming for the average business. Live site https://silly-brattain-5809a7.netlify.com/search.html .
 
 
 
@@ -22,6 +22,9 @@ a)	Easy Access:
 b)	Preferred but may be limited.
 1.	Neilson.com
 2.	Yahoo Finance API
+
+c)API currently used which does search by company ticker:
+1.  https://rapidapi.com/last10k/api/SEC%20Filings
 
 
 
