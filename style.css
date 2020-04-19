@@ -1,4 +1,4 @@
-body{
+body {
   display: flexbox;
   flex-wrap: wrap;
   font-family: Arial, Helvetica, sans-serif;
@@ -10,28 +10,25 @@ body{
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
-  color:#ffffff;
-  }
+  color: #ffffff;
+}
 
-
-
-p{
+p {
   font-weight: normal;
   font-size: 1.5rem;
   width: 90%;
-  margin: auto;
+  margin: 0em auto;
   color: white;
 }
 
-
-header{
+header {
   display: flexbox;
   flex-wrap: wrap;
   align-items: center;
   text-align: center;
-  background-image: linear-gradient(to top,#3f3f3f, #000000);
+  background-image: linear-gradient(to top, #3f3f3f, #000000);
   top: 0rem;
-  color:#ffffff;
+  color: #ffffff;
   position: sticky;
   margin: 0rem;
   padding: 0rem;
@@ -39,9 +36,7 @@ header{
   height: 100%;
 }
 
-
-
-h1{
+h1 {
   padding: 0rem;
   margin: 0rem;
   font-size: 3rem;
@@ -49,9 +44,7 @@ h1{
   text-align: center;
 }
 
-
-
-#HomePage{
+#HomePage {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -62,31 +55,26 @@ h1{
   text-align: center;
 }
 
-#about{
+#about {
   padding: 0rem auto 10rem auto;
   text-align: center;
 }
 
-
-#tools{
+#tools {
   padding: 0rem auto 10rem auto;
   text-align: center;
 }
 
-
-
-h2{
-  padding: 2em auto 0 auto;
-  margin: 3em auto 3em auto;
+h2 {
+  padding: 1em auto 0 auto;
+  margin: 1em auto 1em auto;
   font-size: 3rem;
   color: #ffffff;
   text-align: center;
-font-family: cursive;
+  font-family: cursive;
 }
 
-
-
-li{
+li {
   top: 0rem;
   padding: 0rem;
   display: inline;
@@ -94,121 +82,115 @@ li{
   text-align: center;
   font-weight: bolder;
   margin: 1rem;
-  font-size: .75rem;
+  font-size: 0.75rem;
   text-align: center;
-  }
+}
 
-
-  input{
-    display: flexbox;
-    justify-content: center;
-    width: 12rem;
-    height: 1rem;
-    padding: .75em auto 0 auto;
-    color: maroon;
-    text-align: center;
-    align-content: center;
-    font-weight: bolder;
-  }
-
-
-
-  button{
-    display: flexbox;
-    justify-content: center;
-    width: 6rem;
-    height: 2rem;
-    padding: .75em auto 0 auto; 
-    background-color: maroon;
-    color: white;
-    text-align: center;
-    align-content: center;
-    font-weight: bolder;
-  }
-  
-
-
-  img{
-    width: 90%;
-    height: 90%;
-    bottom: 20rem;
-    padding: 1em auto 5em auto;
-    margin:1em 0em 10em 0rem;
-    text-align: center;
-  }
-
-
-  a{
-    color: #ffffff;
-    text-decoration: none;
-    text-align: center;
-  }
-  
-  
-  
-  a:hover {
-    color: maroon;
-  }
-  
-  
-  div{
-    margin: auto;
-    text-align: center;
-    margin: 1rem auto 10rem auto;
-    display: flexbox;
-    flex-wrap: wrap;
-  }
-
-
-
-#bottom{
+input {
   display: flexbox;
-align-content: center;
+  justify-content: center;
+  width: 12rem;
+  height: 1rem;
+  padding: 0.75em auto 0 auto;
+  color: maroon;
+  text-align: center;
+  align-content: center;
+  font-weight: bolder;
+}
+
+button {
+  display: flexbox;
+  justify-content: center;
+  width: 6rem;
+  height: 2rem;
+  padding: 0.75em auto 0 auto;
+  background-color: maroon;
+  color: white;
+  text-align: center;
+  align-content: center;
+  font-weight: bolder;
+}
+
+img {
+  width: 50%;
+  height: 50%;
+  bottom: 20rem;
+  padding: 1em auto 3em auto;
+  margin: 1em 0em 10em 0rem;
+  text-align: center;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+}
+
+a:hover {
+  color: maroon;
+}
+
+div {
+  margin: auto;
+  text-align: center;
+  margin: 1rem auto 10rem auto;
+  display: flexbox;
+  flex-wrap: wrap;
+}
+
+#bottom {
+  display: flexbox;
+  align-content: center;
   flex-shrink: 0;
   align-items: center;
   text-align: center;
-  background-image: linear-gradient(to bottom,#3f3f3f, #000000);
+  background-image: linear-gradient(to bottom, #3f3f3f, #000000);
   position: fixed;
   bottom: 0rem;
   width: 100%;
-  color:#ffffff;
-  font-size: .75rem;
+  color: #ffffff;
+  font-size: 0.75rem;
   height: 8rem;
   font-weight: lighter;
   margin: auto;
 }
 
-
-
-.footer{
-  font-size: .75rem;
+.footer {
+  font-size: 0.75rem;
   text-align: center;
   margin: auto;
 }
 
-
-
-#tickerSearch{
+#tickerSearch {
   display: flexbox;
   flex-wrap: wrap;
   text-align: center;
   align-content: center;
+  margin: 1em auto;
 }
 
-iframe{
-  height: 15rem;
-  width: 20rem;
+iframe {
+  height: 25rem;
+  width: 30rem;
   margin: 2rem auto 2rem auto;
-
 }
 
-
-#Search{
+#Search {
   padding: 0 auto auto auto;
-  margin: 0 auto auto auto;
+  margin: 0 auto 5em auto;
 }
 
-.examples{
-  width: 50%;
-  height: 50%;
+.examples {
+  margin: 3em, auto 0em;
+  width: 20%;
+  height: 20%;
+}
+
+#companyOutput {
+  background-color: black;
+  border: 0.5em solid maroon;
+  width: 20em;
+  margin: 2em auto;
+  padding: 1em auto;
+  font-size: 2em;
 }

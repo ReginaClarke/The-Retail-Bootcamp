@@ -1,4 +1,4 @@
-body{
+body {
   display: flexbox;
   flex-wrap: wrap;
   font-family: Arial, Helvetica, sans-serif;
@@ -6,12 +6,10 @@ body{
   align-content: center;
   align-items: center;
   background-color: black;
-  color:#ffffff;
-  }
+  color: #ffffff;
+}
 
-
-
-p{
+p {
   font-weight: normal;
   font-size: 1rem;
   width: 90%;
@@ -20,15 +18,14 @@ p{
   padding: 2em auto auto auto;
 }
 
-
-header{
+header {
   display: flexbox;
   flex-wrap: wrap;
   align-items: center;
   text-align: center;
-  background-image: linear-gradient(to top,#3f3f3f, #000000);
+  background-image: linear-gradient(to top, #3f3f3f, #000000);
   top: 0rem;
-  color:#ffffff;
+  color: #ffffff;
   position: sticky;
   margin: 0rem;
   padding: 0rem;
@@ -36,9 +33,7 @@ header{
   height: 100%;
 }
 
-
-
-h1{
+h1 {
   padding: 0rem;
   margin: 0rem;
   font-size: 3rem;
@@ -46,28 +41,20 @@ h1{
   text-align: center;
 }
 
-
-
-#about{
-  
+#about {
   text-align: center;
 }
 
-
-
-
-h2{
-  padding: 2em auto 0 auto;
-  margin: 3em auto 1em auto;
+h2 {
+  padding: 1em auto 0 auto;
+  margin: 1em auto 1em auto;
   font-size: 3rem;
   color: #ffffff;
   text-align: center;
-font-family: cursive;
+  font-family: cursive;
 }
 
-
-
-li{
+li {
   top: 0rem;
   padding: 0rem;
   display: inline;
@@ -75,67 +62,54 @@ li{
   text-align: center;
   font-weight: bolder;
   margin: 1rem;
-  font-size: .75rem;
+  font-size: 0.75rem;
   text-align: center;
-  }
+}
 
+a {
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+}
 
+a:hover {
+  color: maroon;
+}
 
-  a{
-    color: #ffffff;
-    text-decoration: none;
-    text-align: center;
-  }
-  
-  
-  
-  a:hover {
-    color: maroon;
-  }
-  
-  
-  div{
-    margin: auto;
-    text-align: center;
-    margin: 1rem auto 10rem auto;
-    display: flexbox;
-    flex-wrap: wrap;
-  }
-
-
-
-#bottom{
+div {
+  margin: auto;
+  text-align: center;
+  margin: 1rem auto 10rem auto;
   display: flexbox;
-align-content: center;
+  flex-wrap: wrap;
+}
+
+#bottom {
+  display: flexbox;
+  align-content: center;
   flex-shrink: 0;
   align-items: center;
   text-align: center;
-  background-image: linear-gradient(to bottom,#3f3f3f, #000000);
+  background-image: linear-gradient(to bottom, #3f3f3f, #000000);
   position: fixed;
   bottom: 0rem;
   width: 100%;
-  color:#ffffff;
-  font-size: .75rem;
+  color: #ffffff;
+  font-size: 0.75rem;
   height: 8rem;
   font-weight: lighter;
   margin: auto;
 }
 
-
-
-.footer{
-  font-size: .75rem;
+.footer {
+  font-size: 0.75rem;
   text-align: center;
   margin: auto;
 }
 
-
-
-
-
-.me{
-  width: 30%;
-  height: 30%;
+.me {
+  width: 20%;
+  height: 20%;
   border-radius: 30em;
   border: 1em solid #3f3f3f;
   margin: 0 auto 5em auto;
