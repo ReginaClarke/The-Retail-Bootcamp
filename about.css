@@ -13,7 +13,7 @@ p {
   font-weight: normal;
   font-size: 1rem;
   width: 90%;
-  margin: auto;
+  margin: 1em auto;
   color: white;
   padding: 2em auto auto auto;
 }
@@ -47,7 +47,7 @@ h1 {
 
 h2 {
   padding: 1em auto 0 auto;
-  margin: 1em auto 1em auto;
+  margin: 1em auto .5em auto;
   font-size: 3rem;
   color: #ffffff;
   text-align: center;
@@ -96,7 +96,7 @@ div {
   width: 100%;
   color: #ffffff;
   font-size: 0.75rem;
-  height: 8rem;
+  height: 6rem;
   font-weight: lighter;
   margin: auto;
 }
@@ -110,8 +110,9 @@ div {
 .me {
   width: 20%;
   height: 20%;
+  min-width: 10em;
   border-radius: 30em;
-  border: 1em solid #3f3f3f;
-  margin: 0 auto 5em auto;
-  padding: 0 auto 5em auto;
+  border: 0.75em solid #3f3f3f;
+  margin: 0 auto 3em auto;
+  padding: 0 auto 2em auto;
 }

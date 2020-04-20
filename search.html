@@ -1,73 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Retail Bootcamp:Search</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>The Retail Bootcamp:Search</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-</head>
+  <body>
+    <header>
+      <h1><a href="index.html">THE RETAIL BOOTCAMP</a></h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="search.html">SEARCH</a></li>
+          <li><a href="tools.html">TOOLS</a></li>
+        </ul>
+      </nav>
+    </header>
 
-<body>
+    <div>
+      <h2>Search by Ticker</h2>
+      <br />
 
-  <header>
-    <h1><a href="index.html">THE RETAIL BOOTCAMP</a></h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="about.html">ABOUT</a></li>
-        <li><a href="search.html">SEARCH</a></li>
-        <li><a href="tools.html">TOOLS</a></li>
-      </ul>
-    </nav>
-  </header>
+      <div id="tickerSearch">
+        <input type="text" placeholder="Company Ticker Symbol" />
+        <button>Get Results</button>
+        <div id="Search"></div>
+      </div>
+      <br />
 
-
-  <div>
-
-    <h2>Search by Ticker</h2>
-    <br>
-
-    <div id="tickerSearch">
-      <input type="text" placeholder="Company Ticker Symbol">
-      <button>Get Results</button>
-      <div id="Search"> </div>
+      <table style="width: 100%;">
+        <caption>
+          RETAIL TICKER SYMBOLS
+        </caption>
+        <tr>
+          <th>TICKER</th>
+          <th>COMPANY NAME</th>
+        </tr>
+        <tr>
+          <td>BURL</td>
+          <td>BURLINGTON STORES</td>
+        </tr>
+        <tr>
+          <td>M</td>
+          <td>MACY'S</td>
+        </tr>
+        <tr>
+          <td>NKE</td>
+          <td>NIKE</td>
+        </tr>
+        <tr>
+          <td>ROST</td>
+          <td>ROSS STORES</td>
+        </tr>
+      </table>
+      <br />
+      <p>
+        <strong>Initial Markup (IMU%)</strong> is essentially the amount you add
+        on top of the cost.
+      </p>
+      <br />
+      <p>
+        <strong>Gross Margin Rate (GM%)</strong> is essentially the IMU% less
+        markdowns. This is often a target merchandise planners and finance teams
+        align on to ensure the company will essentially be able to survive.
+        Planners often stop here with the exception of inventory managment.
+        Finance will focus more on operational numbers without necessarily being
+        involved with the day to day of the product. The partnership is quite
+        heavy between finance and planning. Planners have to be strategic,
+        financially savvy, and concious of the product, marketing,
+        competetitors, and so much more all at the same time. Time periods
+        reviewed are past, present, future and often at the same time. Buyers
+        and Planners go hand and hand and can sometimes switch roles. A skilled
+        Buyer or Planner can often step into either role.
+      </p>
+      <br />
+      <p>
+        <strong>Net Profit</strong> is more of a financial term which
+        essentially is money left over after everything is complete.
+        Understanding this number will help you understand the importance of
+        IMU.
+      </p>
     </div>
-    <br>
-    <img class="examples" src="ticker-examples.jpeg">
-    <br>
-    <p><strong>Initial Markup (IMU%)</strong> is essentially the amount you add on top of the cost.</p>
-    <br>
-    <p><strong>Gross Margin Rate (GM%)</strong> is essentially the IMU% less markdowns. This is often a target
-      merchandise planners and
-      finance teams align on to ensure the company will essentially be able to survive. Planners often stop here with
-      the exception of inventory managment. Finance will focus more on operational numbers without necessarily being
-      involved with the day to day of the product. The partnership is quite heavy between finance and planning. Planners
-      have to be strategic, financially savvy, and concious of the product, marketing, competetitors, and so much more
-      all at the same time. Time periods reviewed are past, present, future and often at the same time. Buyers and
-      Planners go hand and hand and can sometimes switch roles. A skilled Buyer or Planner can often step into either
-      role.</p>
-    <br>
-    <p><strong>Net Profit</strong> is more of a financial term which essentially is money left over after everything is
-      complete. Understanding this number will help you understand the importance of IMU.</p>
-  </div>
 
+    <footer id="bottom">
+      <h3>The Retail Bootcamp</h3>
+      <p class="footer">
+        info@TheRetailBootcamp
+        <br />
+        <a href="https://theretailbootcamp.com" target="_blank"
+          >www.TheRetailBootcamp.com</a
+        >
+        <br />
+        <a href="https://www.instagram.com/theretailbootcamp/" target="_blank"
+          >Instagram</a
+        >
+      </p>
+    </footer>
+  </body>
 
-
-  <footer id="bottom">
-    <h3>The Retail Bootcamp</h3>
-    <p class="footer">info@TheRetailBootcamp
-      <br>
-      <a href="https://theretailbootcamp.com" target="_blank">www.TheRetailBootcamp.com</a>
-      <br>
-      <a href="https://www.instagram.com/theretailbootcamp/" target="_blank">Instagram</a></p>
-  </footer>
-
-</body>
-
-<script src="./main.js"></script>
-
+  <script src="./main.js"></script>
 </html>
